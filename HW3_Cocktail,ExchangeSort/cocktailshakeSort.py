@@ -36,7 +36,7 @@ for i in range(N):
 start_time = time.time()
 csSort(b,N)
 end_time = time.time() - start_time
-print('임의로 값이 삽입된 배열의 버블 정렬의 실행 시간 (N = %d) : %0.3f'%(N, end_time))
+print('임의로 값이 삽입된 배열의 칵테일쉐이커 정렬의 실행 시간 (N = %d) : %0.3f'%(N, end_time))
 
 b = []
 b.append(-1)
@@ -45,7 +45,7 @@ for i in range(N):
 start_time = time.time()
 csSort(b,N)
 end_time = time.time() - start_time
-print('정렬된 값이 삽입된 배열의 버블 정렬의 실행 시간 (N = %d) : %0.3f'%(N, end_time))
+print('정렬된 값이 삽입된 배열의 칵테일쉐이커 정렬의 실행 시간 (N = %d) : %0.3f'%(N, end_time))
 
 
 b = []
@@ -55,7 +55,7 @@ for i in range(N-1,-1,-1):
 start_time = time.time()
 csSort(b,N)
 end_time = time.time() - start_time
-print('역순으로 정렬된 배열의 버블 정렬의 실행 시간 (N = %d) : %0.3f'%(N, end_time))
+print('역순으로 정렬된 배열의 칵테일쉐이커 정렬의 실행 시간 (N = %d) : %0.3f'%(N, end_time))
 print()
 
 N = 10000
@@ -67,7 +67,7 @@ for i in range(N):
 start_time = time.time()
 csSort(b,N)
 end_time = time.time() - start_time
-print('임의로 값이 삽입된 배열의 버블 정렬의 실행 시간 (N = %d) : %0.3f'%(N, end_time))
+print('임의로 값이 삽입된 배열의 칵테일쉐이커 정렬의 실행 시간 (N = %d) : %0.3f'%(N, end_time))
 
 b = []
 b.append(-1)
@@ -76,7 +76,7 @@ for i in range(N):
 start_time = time.time()
 csSort(b,N)
 end_time = time.time() - start_time
-print('정렬된 값이 삽입된 배열의 버블 정렬의 실행 시간 (N = %d) : %0.3f'%(N, end_time))
+print('정렬된 값이 삽입된 배열의 칵테일쉐이커 정렬의 실행 시간 (N = %d) : %0.3f'%(N, end_time))
 
 
 b = []
@@ -86,7 +86,7 @@ for i in range(N-1,-1,-1):
 start_time = time.time()
 csSort(b,N)
 end_time = time.time() - start_time
-print('역순으로 정렬된 배열의 버블 정렬의 실행 시간 (N = %d) : %0.3f'%(N, end_time))
+print('역순으로 정렬된 배열의 칵테일쉐이커 정렬의 실행 시간 (N = %d) : %0.3f'%(N, end_time))
 
 N = 15000
 
@@ -97,7 +97,7 @@ for i in range(N):
 start_time = time.time()
 csSort(b,N)
 end_time = time.time() - start_time
-print('임의로 값이 삽입된 배열의 버블 정렬의 실행 시간 (N = %d) : %0.3f'%(N, end_time))
+print('임의로 값이 삽입된 배열의 칵테일쉐이커 정렬의 실행 시간 (N = %d) : %0.3f'%(N, end_time))
 
 b = []
 b.append(-1)
@@ -106,7 +106,7 @@ for i in range(N):
 start_time = time.time()
 csSort(b,N)
 end_time = time.time() - start_time
-print('정렬된 값이 삽입된 배열의 버블 정렬의 실행 시간 (N = %d) : %0.3f'%(N, end_time))
+print('정렬된 값이 삽입된 배열의 칵테일쉐이커 정렬의 실행 시간 (N = %d) : %0.3f'%(N, end_time))
 
 
 b = []
@@ -116,4 +116,4 @@ for i in range(N-1,-1,-1):
 start_time = time.time()
 csSort(b,N)
 end_time = time.time() - start_time
-print('역순으로 정렬된 배열의 버블 정렬의 실행 시간 (N = %d) : %0.3f'%(N, end_time))
+print('역순으로 정렬된 배열의 칵테일쉐이커 정렬의 실행 시간 (N = %d) : %0.3f'%(N, end_time))
